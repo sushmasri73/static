@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Creative CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .cv-container {
+      background: #fff;
+      width: 800px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      display: flex;
+    }
+
+    .left {
+      background: #4b6cb7;
+      color: #fff;
+      padding: 30px;
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .left img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #fff;
+      margin-bottom: 20px;
+    }
+
+    .left h2 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .left p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .left h3 {
+      margin-top: 20px;
+      font-size: 16px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 5px;
+      width: 100%;
+    }
+
+    .left ul {
+      list-style: none;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .left ul li {
+      margin-bottom: 8px;
+    }
+
+    .right {
+      padding: 30px;
+      width: 65%;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      color: #333;
+      border-left: 5px solid #4b6cb7;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .section p,
+    .section li {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .section ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="left">
+      <img src="sushma.jpg" alt="Profile Picture">
+      <h2> Sushma </h2>
+      <p>Web Developer | Designer</p>
+
+      <h3>Contact</h3>
+      <ul>
+        <li>📞 +91 98765 43210</li>
+        <li>✉️ sushma@example.com</li>
+        <li>🌐 github.com/sushma</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML, CSS, JS</li>
+        <li>Python, Django</li>
+        <li>React, Node.js</li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <div class="section">
+        <h2>About Me</h2>
+        <p>A passionate developer who loves to build creative web experiences and solve real-world problems with code.</p>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>B.Tech - CSE</strong> | Mallareddy Institute | 2021–2025</li>
+          <li><strong>Intermediate</strong> | Tejas jr College | 2019–2021</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Fake Art Detector:</strong> AI-powered tool to detect fake vs real paintings.</li>
+          <li><strong>Mood-Based Game:</strong> Interactive web game that reacts to user emotions.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Languages</h2>
+        <ul>
+          <li>English – Fluent</li>
+          <li>Telugu – Native</li>
+          <li>Hindi – Intermediate</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
